@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana,sans-serif
+}
+
+body{
+  background-image: image("nature2.jpg");
+}
+
+#content {
+  display: block;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav {
+  background: #66B053;
+  height: 9rem;
+    text-align: center;
+}
+
+h1 {
+  background-color:#66B053;
+  text-align: center;
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+
+
+
+
+@media (min-width: 425px) {
+
+.iconList li {
+  width: 50%;
+}
+
+}
+
+@media (min-width: 655px) {
+  nav {
+    height: 3rem;
+  }
+  nav li {
+    height: 100%;
+  }
+  nav li, .bigNumberList li, .iconList li {
+    width: 33.333333%;
+  }
+}
+
+@media (min-width: 850px) {
+
+.iconList li {
+  width: 20%;
+}
+
+}
