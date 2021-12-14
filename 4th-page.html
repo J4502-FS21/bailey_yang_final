@@ -9,11 +9,62 @@
 <body>
   <h1 id="home">PANDEMIC DIARY - GROWING YOUR OWN FOOD</h1>
   <nav>
-    <nav class="nav">
-    <a href="index.html">PREPARE</a>
-    <a href="2nd-page.html">PLANT</a>
-    <a href="3rd-page.html">HARVEST</a>
-    <a href="4th-page.html">CLICK IF YOU LIKE FUNGI</a>
+    <ul id="menu_nav">
+     <a href="index.html" class="button">PREPARE</a>
+     <a href="2nd-page.html" class="button">PLANT</a>
+     <a href="3rd-page.html" class="button">HARVEST</a>
+     <a href="4th-page.html" class="button">CLICK IF YOU LIKE FUNGI</a>
+
+    </ul>
   </nav>
     <h2> WILD FORAGING GUIDE</h2>
-<p>Downbelow will have wild edible mushrooms in Columbia, Missouri. And a Wild Mushroom Guide from the Missouri Department of Conservation.</p>
+    <p> Part 1: Mushroom foraging map</p>
+<p class="content"> Finding mushrooms can be tricky, the map downbelow shows a trail where others had found edible mushrooms.</p>
+ <div class="map">
+   <iframe width="600" height="500" src= "https://www.google.com/maps/d/u/0/embed?mid=17OW8uXmW2insWaeG23zv9xgiL91IWEDh&ehbc=2E312F">
+   </iframe>
+
+    <p> Part 2: Identify edible fungi</p>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="bearhead.jpg" style="width:50%">
+        <div class="text">Bearhead</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="goldencoral.jpg" style="width:50%">
+        <div class="text">Golden Coral</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="honeymushroom.jpg" style="width:50%">
+        <div class="text">Honeymushroom</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="purplemushroom.jpg" style="width:50%">
+        <div class="text">Purplemushroom</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <script src="myscripts.js"></script>
+
+</body>
+</html>
